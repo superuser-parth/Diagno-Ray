@@ -1,0 +1,21 @@
+.top {
+    background-color: rgb(46, 39, 79);
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .toplinks {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto; /* Push "About" link to the right */
+    margin-right: 30vh; /* Add some space between the "About" link and the edge */
+  
+  }
+  .toplinks a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    margin-left: 20px; /* Add space between each link */
+  }

@@ -1,0 +1,89 @@
+
+.disease{
+    background-color:rgb(52, 32, 106);
+    min-height:100vh;
+  }
+
+  
+.dis1{
+    display: flex;
+    margin-top:50px;
+  }
+  
+  .dis1 p{
+    margin-right: 230px;
+    margin-left: 180px;
+    margin-top: 40px;
+    text-align: left;
+    font-size: larger;
+    color:rgb(191, 176, 240);
+  }
+  .dis1 img{
+    justify-items: flex-end;
+    height: 400px;
+    width:400px;
+    margin-right: 120px;
+  }
+  
+  .dis2{
+    display: flex;
+    margin-top:180px;
+  }
+  
+  .dis2 p{
+    margin-top: 60px;
+    text-align: left;
+    font-size: larger;
+    color:rgb(191, 176, 240);
+    margin-left:150px;
+    margin-right: 160px;
+  } 
+  .dis2 img{
+    justify-items: flex-end;
+    height: 400px;
+    width:400px;
+    margin-left: 180px;
+    
+  }
+  
+  .dis3{
+    display: flex;
+    margin-top:180px;
+  }
+  
+  .dis3 p{
+    margin-right: 230px;
+    margin-left: 180px;
+    margin-top: 40px;
+    text-align: left;
+    font-size: larger;
+    color:rgb(191, 176, 240);
+  }
+  .dis3 img{
+    justify-items: flex-end;
+    height: 400px;
+    width:400px;
+    margin-right: 120px;
+  }
+  
+  .dis4{
+    display: flex;
+    margin-top:180px;
+  }
+  
+  .dis4 p{
+    margin-top: 60px;
+    text-align: left;
+    font-size: larger;
+    color:rgb(191, 176, 240);
+    margin-left:150px;
+    margin-right: 160px;
+  } 
+  .dis4 img{
+    justify-items: flex-end;
+    height: 400px;
+    width:700px;
+    margin-left: 180px;
+    
+  }
+  

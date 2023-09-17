@@ -1,0 +1,66 @@
+/* Implement.css */
+
+/* Styles for the main content container */
+.content {
+    background-color: #0e1626;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  /* Styles for the modal container */
+  .modal {
+   
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  .modal-content {
+    
+    margin: auto;
+    padding: 20px;
+    max-width: 100vw; /* Set the maximum width to match the viewport width */
+    max-height: 100vh; /* Set the maximum height to match the viewport height */
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    overflow: auto; /* Add scrollbars if the image exceeds the modal's dimensions */
+  }
+
+  /* Styles for the close button */
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  /* Style for the uploaded image */
+  .uploaded-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Styles for the resize controls */
+  .resize-controls {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .resize-controls span {
+    padding: 5px;
+  }
+  
